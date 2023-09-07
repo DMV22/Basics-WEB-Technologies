@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+
+.image {
+  float: right;
+  width: 25%;
+  height: 60vh;
+  overflow: hidden;
+  background: #b0afd8;
+}
+
+.image2 {
+  width: 100%;
+  height: 20vh;
+  overflow: hidden;
+  background: #285bea;
+}
+
+.text {
+  position: relative;
+  width: 100%;
+  height: 20vh;
+  text-align: center;
+  background: #143898;
+}
+
+.text2 {
+  position: relative;
+  float: left;
+  width: 75%;
+  height: 60vh;
+  text-align: center;
+  background: #6007a1;
+}
+
+.photo {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}

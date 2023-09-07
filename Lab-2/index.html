@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Лабораторна №2 Дивнича Максима," />
+    <meta name="keywords" content="Дивнич, Максим, Лабораторна" />
+    <title>Дивнич М. В., ІО-02, Лабораторна №2, Варіант 35</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="task-1">
+        <div class="input">
+          <h1><em>Task 1</em></h1>
+          <form id="form">
+            <fieldset>
+              <legend class="title">Форма для заповнення</legend>
+              <div class="input-control">
+                <label for="username">ПІБ</label>
+                <input id="username" type="text" placeholder="ТТТТТТ Т.Т." />
+                <div class="error"></div>
+              </div>
+              <div class="input-control">
+                <label for="faculty">Факультет</label>
+                <input id="faculty" type="text" placeholder="ТТТТ" />
+                <div class="error"></div>
+              </div>
+
+              <div class="input-control">
+                <label for="birthday">Дата народження</label>
+                <input id="birthday" type="text" placeholder="ЧЧ.ЧЧ.ЧЧЧЧ" />
+                <div class="error"></div>
+              </div>
+
+              <div class="input-control">
+                <label for="address">Адреса</label>
+                <input id="address" type="text" placeholder="м. ТТТТТ" />
+                <div class="error"></div>
+              </div>
+
+              <div class="input-control">
+                <label for="email">E-mail</label>
+                <input id="email" type="text" placeholder="тттттт@ттттт.com" />
+                <div class="error"></div>
+              </div>
+              <div class="input-control">
+                <button type="submit">Підтвердити</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+        <div class="output">
+          <span id="information"></span>
+        </div>
+      </div>
+      <div class="task-2">
+        <h1><em>Task 2</em></h1>
+        <input type="color" id="colorCodes" />
+        <table></table>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

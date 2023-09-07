@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas: "A A" "B C" "D D";
+  overflow: hidden;
+}
+
+p {
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+
+.text,
+.text2 {
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
+
+.text {
+  grid-area: A;
+  background: #143898;
+  height: 20vh;
+}
+
+.text2 {
+  grid-area: B;
+  background: #6007a1;
+  height: 60vh;
+}
+
+.image {
+  grid-area: C;
+  height: 60vh;
+}
+
+.image2 {
+  grid-area: D;
+  height: 20vh;
+}
+
+.photo {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
